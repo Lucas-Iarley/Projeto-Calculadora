@@ -1,0 +1,204 @@
+body{display:  flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 600px;
+	background-image: url('https://i.pinimg.com/originals/48/93/f0/4893f0304c0df6097d5062fdc1cc0c15.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#Body{
+	display:  flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	width: 280px;
+	height: 430px;
+	background-color: rgba(187, 187, 255, 0.5);
+}
+
+h1{
+	font-size: 26px;
+	color: #fff;
+	text-decoration: underline;
+}
+
+input{
+	width: 180px;
+	height: 30px;
+	margin-top: 22px;
+	text-align: right;
+}
+.teclado{
+	width: 240px;
+	height: 240px;
+	justify-content: center;
+	align-content: center ;
+	display: grid;
+		grid-template-columns: 40px 40px 40px 40px 40px;
+		grid-template-rows: 16px 16px 35px 35px 35px 35px ;
+		grid-template-areas:
+			"MC MR MS Msom Msub"
+			"BACK CE c baskhara raiz"
+			"n7 n8 n9 divisao porcent"
+			"n4 n5 n6 multi resultado "
+			"n1 n2 n3 sub resultado "
+			"n0 n0 virgula soma resultado "			
+		;
+		grid-gap:4px;
+		margin: 0px;	
+		border: 2px solid #CCC;
+		border-radius: 5px;
+
+}
+.tecla{display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:rgb(87, 87, 172);
+	color: white;
+	border-radius: 4px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+.tecla:hover{
+	cursor: pointer;
+	box-shadow:1px 1px 20px white;
+}
+
+.MC{grid-area: MC;
+	height: 100%;
+	width: 100%;
+	}
+
+.MR{grid-area: MR;
+	height: 100%;
+	width: 100%;
+	}
+
+.MS{grid-area: MS;
+	height: 100%;
+	width: 100%;
+	}
+
+.Msom{grid-area: Msom;
+	height: 100%;
+	width: 100%;
+	}
+
+
+.Msub{grid-area: Msub;
+	height: 100%;
+	width: 100%;
+	}
+
+.BACK{grid-area: BACK;
+	height: 100%;
+	width: 100%;
+	}
+
+.CE{grid-area: CE;
+	height: 100%;
+	width: 100%;
+	} 
+
+.c{grid-area: c;
+	height: 100%;
+	width: 100%;
+	}
+
+.baskhara{grid-area:baskhara ;
+	height: 100%;
+	width: 100%;
+	}
+
+.raiz{grid-area: raiz;
+	height: 100%;
+	width: 100%;
+	}
+
+.multi{grid-area: multi;
+	height: 100%;
+	width: 100%;
+	}
+
+.n9{grid-area: n9;
+	height: 100%;
+	width: 100%;
+	}
+
+.porcent{grid-area: porcent;
+	height: 100%;
+	width: 100%;
+	}
+
+.n8 {grid-area: n8;
+	height: 100%;
+	width: 100%;
+	} 
+
+.n7 {grid-area: n7;
+	height: 100%;
+	width: 100%;
+	}
+
+.n6 {grid-area: n6;
+	height: 100%;
+	width: 100%;
+	}
+
+.n5 {grid-area: n5;
+	height: 100%;
+	width: 100%;}
+
+.n4 {grid-area: n4;
+	height: 100%;
+	width: 100%;
+	}
+
+.n3{grid-area:n3;
+	height: 100%;
+	width: 100%;
+	}
+
+.n2{grid-area: n2;
+	height: 100%;
+	width: 100%;
+	}
+
+.n1{grid-area: n1;
+	height: 100%;
+	width: 100%;
+	} 
+
+.n0{grid-area: n0;
+	height: 100%;
+	width: 100%;
+	}
+
+.virgula{grid-area:virgula; 
+	height: 100%;
+	width: 100%;}
+
+.resultado{grid-area: resultado;
+	height: 100%;
+	width: 100%;
+	}
+
+.sub{grid-area: sub;
+	height: 100%;
+	width: 100%;
+	}
+
+.soma{grid-area: soma;
+	height: 100%;
+	width: 100%;
+}
+
+.divisao{grid-area: divisao;
+	height: 100%;
+	width: 100%;
+}
+

@@ -1,0 +1,58 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript Calculator</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+	
+</head>
+<body>
+	<div id ='Body'>
+		<H1>CALCULADORA</H1>
+		<p><input type="text" value= " " class="screen" >
+		</p>	
+	</hr>
+	<div class="teclado">
+		<div class="tecla MC">MC</div>
+		<div class="tecla MR">MR</div>
+		<div class="tecla MS">MS</div>
+		<div class="tecla Msom">M+</div>
+		<div class="tecla Msub">M- </div>
+		<div class="tecla BACK">&larr;</div>
+		<div class="tecla CE" onclick = "limpar('')">CE</div>
+		<div class="tecla c">C</div>
+		<div class="tecla baskhara" onclick="Valores(' &plusmn;')">&plusmn;</div>
+		<div class="tecla raiz" onclick="Valores(' &radic;')">&radic;</div>
+		<div class="tecla numero n7" onclick="Valores('7')">7</div>
+		<div class="tecla numero n8" onclick="Valores('8')">8</div>
+		<div class="tecla numero n9" onclick="Valores('9')">9</div>
+		<div class="tecla numero n6" onclick="Valores('6')">6</div>
+		<div class="tecla numero n5" onclick="Valores('5')">5</div>
+		<div class="tecla numero n4" onclick="Valores('4')">4</div>
+		<div class="tecla numero n3" onclick="Valores('3')">3</div>
+		<div class="tecla numero n2" onclick="Valores('2')">2</div>
+		<div class="tecla numero n1" onclick="Valores('1')">1</div>
+		<div class="tecla numero n0" onclick="Valores('0')">0</div>
+		<div class="tecla virgula" onclick="Valores(',')">,</div>
+		<div class="tecla  resultado" onclick='operacoes()'>=</div>
+		<div class="tecla  sub" onclick="Valores(' - ')">-</div>
+		<div class="tecla  multi"onclick="Valores(' * ')">*</div>
+		<div class="tecla  soma" onclick="Valores(' + ')">+</div>
+		<div class="tecla  divisao" onclick="Valores(' / ')">/</div>
+		<div class="tecla  porcent" onclick="Valores(' % ')">%</div>
+
+
+<script type="text/javascript" src="./index.js" >
+	
+
+</script>
+
+	</div>
+		
+	</div>
+		
+
+</body>
+</html>
